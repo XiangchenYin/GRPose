@@ -218,18 +218,18 @@
                 <p>
 <!--                    <font color=red>50,000</font> images including more than <font color=red>123,000</font> human figures in <font color=red>20 scenarios</font>-->
                     Our aim is to generate high-quality human images conditioned on pose priors.
-                    Our proposed GRPose consists of three main components: Diffusion Pipeline,
-                    Graph Pose Adapter and Pose Perception Loss.
+                    Our proposed <strong>GRPose</strong> consists of three main components: <strong>Diffusion Pipeline,
+                    Graph Pose Adapter and Pose Perception Loss</strong>.
                 </p>
 
                 <p>
                     Within the entire framework, the Graph Pose Adapter is a trainable component that encodes the pose condition
                     into a graph structure and integrates it into the Adapter through a hierarchical structure.
                     At the beginning of each encoder layer in the Adapter, the encoded pose and the current latent representation
-                    are fed into the Progressive Graph Integrator (PGI) to capture the topological relationships between different
+                    are fed into the <strong>Progressive Graph Integrator (PGI)</strong> to capture the topological relationships between different
                     pose parts through graph learning. This process fine-tunes the Adapter to convey control signals to the SD model,
                     producing the synthesized image. Additionally, to further encourage alignment of the synthesized output with pose
-                    priors, the pose perception loss is formulated using a pre-trained pose estimation network to quantify the pose
+                    priors, the <strong>pose perception loss</strong> is formulated using a pre-trained pose estimation network to quantify the pose
                     differences between outputs and the original images.
                 </p>
                 <img src="src\overview.png" style="width:90%;">
