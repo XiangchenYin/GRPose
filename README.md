@@ -1,2 +1,1 @@
-# GRPose
-The code will be released soon.
+# Web Page of GRPose
