@@ -25,6 +25,10 @@
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <script src="https://unpkg.com/@glidejs/glide"></script>
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
         <style type="text/css">
             .side-text {
                 width:60%;
@@ -237,6 +241,12 @@
                     The Pose Encoder uses a coupling structure in alongside the Progressive Graph Integrator (PGI) to capture graph relationships between different pose parts. The Pose Perception Loss adopts a pre-trained pose estimation network to regularize the pose alignment in the feature space.
                 </p> <br>
 
+                <img src="src\PGI.png" style="width:60%;">
+                <p class="caption" align="center">
+                    <strong>Details of Progressive Graph Integrator (PGI).</strong> The pose prior \( x_p \) and
+                    latent representation \( x_l \) are gridded to construct graphs \( \mathcal{G}_p \)
+                    and \( \mathcal{G}_p \) respectively, where GCNs are employed to fuse and update the information.
+                </p>
 
                 <div class="section-title">Visualization of Methods</div>
 
@@ -258,7 +268,7 @@
                                     <strong>Comparison of different base diffusion models for our GRPose.</strong> We compared SD1.5, Anime Art and Realistic models of different styles. GRPose effectively enhances each model with superior pose alignment.                                </p>
                             </li>
 
-                            <li class="glide__slide"><img src="src/multi-pose.png" style="width:50%;">
+                            <li class="glide__slide"><img src="src/multi-pose.png" style="width:60%;">
                                 <p class="caption" align="center">
                                     <strong>Results of Multi-Pose Generation.</strong> Our model outperforms ControlNet in generating multiple poses.
                                 </p>
