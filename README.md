@@ -28,8 +28,6 @@ Recent methods using diffusion models have made significant progress in human im
 
 ## Updates
 
-- **`2024/12/30`**: Our [**Online Demo**](http://demo.fitdit.byjiang.com/) is released.
-- **`2024/12/25`**: Our code is released!
 - **`2024/12/10`**: Congratulations! Our **GRPose** is accepted at AAAI2025.
 
 ## Environment
