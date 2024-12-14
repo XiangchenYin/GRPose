@@ -28,6 +28,7 @@ Recent methods using diffusion models have made significant progress in human im
 
 ## Updates
 
+- **`2024/12/15`**: Release the code of model and training.
 - **`2024/12/10`**: Congratulations! Our **GRPose** is accepted at AAAI2025.
 
 ## Environment
