@@ -1,0 +1,10 @@
+experiments/
+*/__pycache__/
+outputs/
+tmp/
+tmp_dirs/
+.vscode/
+__pycache__/
+utils/mmpose-0.x/
+*/__pycache__/
+models/
