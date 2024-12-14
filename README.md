@@ -55,11 +55,11 @@ The pretrain model dir as follows:
 
 ```
 |-- models/
-		|-- clip-vit-large-patch14/
-    |-- v1-5-pruned.ckpt  
-    |-- higherhrnet_w48_humanart_512x512_udp.pth 
-    |-- mobilenetv2_coco_512x512-4d96e309_20200816.pth
-    |-- init_grpose.ckpt  
+  |-- clip-vit-large-patch14/
+  |-- v1-5-pruned.ckpt  
+  |-- higherhrnet_w48_humanart_512x512_udp.pth 
+  |-- mobilenetv2_coco_512x512-4d96e309_20200816.pth
+  |-- init_grpose.ckpt  
 ```
 
 ## Train the models
