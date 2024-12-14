@@ -17,6 +17,7 @@ By [Xiangchen Yin](), [Donglin Di](), [Lei Fan](), [Hao Li](), [Chen Wei](), [Xi
 <div align="center">
   <img src="assets/front.png" width="100%" height="100%"/>
 </div>
+
 ## Abstract
 
 Recent methods using diffusion models have made significant progress in human image generation with various additional controls such as pose priors. However, existing approaches still struggle to generate high-quality images with consistent pose alignment, resulting in unsatisfactory outputs. In this paper, we propose a framework delving into the graph relations of pose priors to provide control information for human image generation. The main idea is to establish a graph topological structure between the pose priors and latent representation of diffusion models to capture the intrinsic associations between different pose parts. A Progressive Graph Integrator (PGI) is designed to learn the spatial relationships of the pose priors with the graph structure, adopting a hierarchical strategy within an Adapter to gradually propagate information across different pose parts. A pose perception loss is further introduced based on a pretrained pose estimation network to minimize the pose differences. Extensive qualitative and quantitative experiments conducted on the Human-Art and LAION-Human datasets demonstrate that our model achieves superior performance, with a 9.98% increase in pose average precision compared to the latest benchmark model.
@@ -24,6 +25,7 @@ Recent methods using diffusion models have made significant progress in human im
 <div align="center">
   <img src="assets/overview.png" width="100%" height="100%"/>
 </div>
+
 ## Updates
 
 - **`2024/12/30`**: Our [**Online Demo**](http://demo.fitdit.byjiang.com/) is released.
