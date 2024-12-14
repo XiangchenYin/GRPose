@@ -100,7 +100,7 @@ You can also directly run at multiple gpus:
 
 ```
 python eval_pose-multiGPU.py --config_model configs/grpose/humanart.yaml \
---ckpt experiments/grpose/grpose_HumanArt-8-L40S/epoch=000031.ckpt \
+--ckpt experiments/grpose/grpose_HumanArt-8-L40S/epoch=000035.ckpt \
 --batch_size 4 --gpus 0,1,2,3
 ```
 
