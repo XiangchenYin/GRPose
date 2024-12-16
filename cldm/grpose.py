@@ -15,7 +15,6 @@ from einops import rearrange, repeat
 from torchvision.utils import make_grid
 import numpy as np
 from torch.cuda.amp import autocast
-from cldm.hgnn import *
 from gcn_lib.torch_vertex import *
 
 
