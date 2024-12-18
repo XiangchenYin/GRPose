@@ -9,7 +9,6 @@ import torch
 import torch as th
 import torch.nn as nn
 import cv2
-# from dhg import Hypergraph
 
 from einops import rearrange, repeat
 from torchvision.utils import make_grid
@@ -33,7 +32,6 @@ from ldm.modules.diffusionmodules.util import (
     timestep_embedding,
 )
 
-from ldm.modules.pmsa_vit import PMSAViT
 from ldm.modules.attention import SpatialTransformer
 from ldm.modules.diffusionmodules.openaimodel import UNetModel, TimestepBlock, ResBlock, Downsample, AttentionBlock
 from torchvision.transforms import GaussianBlur
