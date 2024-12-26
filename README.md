@@ -12,7 +12,7 @@
   </a>
 </div>
 
-By [Xiangchen Yin](), [Donglin Di](), [Lei Fan](), [Hao Li](), [Chen Wei](), [Xiaofei Gou](), [Yang Song](), [Xiao Sun](), [Xun Yang]()
+By [Xiangchen Yin](), [Donglin Di](), [Lei Fan](), [Hao Li](), [Wei Chen](), [Xiaofei Gou](), [Yang Song](), [Xiao Sun](), [Xun Yang]()
 
 <div align="center">
   <img src="assets/front.png" width="100%" height="100%"/>
