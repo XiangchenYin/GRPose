@@ -90,29 +90,22 @@ cd mmpose-0.x
 pip install -e .
 ```
 
-Evaluation shell file is provide:
+Evaluation shell file is provided:
 
 ```
 sh infer.sh
 ```
 
-You can also directly run at multiple gpus:
+You can run the single gpu evaluation
 
 ```
-python eval_pose-multiGPU.py --config_model configs/grpose/humanart.yaml \
---ckpt experiments/grpose/grpose_HumanArt-8-L40S/epoch=000035.ckpt \
---batch_size 4 --gpus 0,1,2,3
+python eval_pose.py --config_model configs/grpose/humanart.yaml --ckpt experiments/grpose/grpose_HumanArt-8-L40S/epoch=000035.ckpt
 ```
-
-The test set will be split according to the number of gpus to adopt parallel evaluation . You can also run the single gpu evaluation
-
+The predict results will be saved in `outputs` and the quantitative results are saved in `metrics/pose.csv`. To evaluate FID, KID for the image quality 
 ```
-python eval_pose.py --config_model configs/grpose/humanart.yaml --ckpt experiments/grpose/grpose_HumanArt-8-L40S/epoch=000031.ckpt
+python eval_quality.py 
 ```
-
-The predict results will be saved in `outputs` and the quantitative results are saved in `metrics`.
-
-
+It need to be noted that KID is multiplied by 100 for Human-Art and 1000 for LAION-Human for readability in the our paper.
 
 ## Star History
 
