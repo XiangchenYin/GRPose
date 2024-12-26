@@ -105,7 +105,7 @@ The predict results will be saved in `outputs` and the quantitative results are 
 ```
 python eval_quality.py 
 ```
-It need to be noted that KID is multiplied by 100 for Human-Art and 1000 for LAION-Human for readability in the our paper.
+It need to be noted that KID is multiplied by 100 for Human-Art and 1000 for LAION-Human for readability in our paper.
 
 ## Star History
 
