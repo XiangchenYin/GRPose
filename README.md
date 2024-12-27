@@ -7,7 +7,7 @@
   <a href="https://github.com/XiangchenYin/GRPose" style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub' alt='GitHub'>
   </a>
-  <a href='https://XiangchenYin.github.io/grpose_page/' style="margin: 0 2px;">
+  <a href='https://XiangchenYin.github.io/GRPose/' style="margin: 0 2px;">
     <img src='https://img.shields.io/badge/Webpage-Project-silver?style=flat&logo=&logoColor=orange' alt='webpage'>
   </a>
 </div>
@@ -105,7 +105,7 @@ The predict results will be saved in `outputs` and the quantitative results are 
 ```
 python eval_quality.py 
 ```
-It need to be noted that KID is multiplied by 100 for Human-Art and 1000 for LAION-Human for readability in our paper.
+It should be noted that KID is multiplied by 100 for Human-Art and 1000 for LAION-Human for readability in our paper.
 
 ## Star History
 
