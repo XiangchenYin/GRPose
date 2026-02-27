@@ -107,21 +107,12 @@ python eval_quality.py
 ```
 It should be noted that KID is multiplied by 100 for Human-Art and 1000 for LAION-Human for readability in our paper.
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=XiangchenYin/GRPose&type=Date)](https://star-history.com/#XiangchenYin/GRPose&Date)
-
 
 
 ## Citation
 
 ```
-@article{yin2024grpose,
-  title={Grpose: Learning graph relations for human image generation with pose priors},
-  author={Yin, Xiangchen and Di, Donglin and Fan, Lei and Li, Hao and Wei, Chen and Gou, Xiaofei and Song, Yang and Sun, Xiao and Yang, Xun},
-  journal={arXiv preprint arXiv:2408.16540},
-  year={2024}
-}
+@inproceedings{yin_grpose, title={GRPose: Learning Graph Relations for Human Image Generation with Pose Priors}, volume={39}, DOI={10.1609/aaai.v39i9.33032}, number={9}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Yin, Xiangchen and Di, Donglin and Fan, Lei and Li, Hao and Chen, Wei and , Gouxiaofei and Song, Yang and Sun, Xiao and Yang, Xun}, year={2025}, pages={9526-9534} }
 ```
 
 ## Acknowledgments
